@@ -1,0 +1,58 @@
+{
+  "definitions": {
+    "Organization": {
+      "properties": {
+        "beneficialOwners": {
+          "type": "array",
+          "title": "Beneficial Owners",
+          "description": "The list of the individuals with a beneficial ownership in this organization.",
+          "items": {
+            "$ref": "#/definitions/Person"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
+    },
+    "Person": {
+      "type": "object",
+      "title": "Person",
+      "description": "A natural person.",
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "title": "Person ID",
+          "description": "A local ID for the person.",
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "title": "Person name",
+          "description": "The full name of the person.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "identifier": {
+          "title": "Person Identifier",
+          "description": "The legal identifier for this person. Follow the guidance from the Beneficial Ownership Data Standard to set the identifier scheme with the pattern {JURISDICTION}-{TYPE} where JURISDICTION is an uppercase ISO 3166-1 alpha-3 country code and TYPE is one of PASSPORT, TAXID or IDCARD",
+          "$ref": "#/definitions/Identifier"
+        },
+        "nationality": {
+          "title": "Person nationality",
+          "description": "The ISO 2-Digit country code representing the nationality held by this individual.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        }
+      },
+      "minProperties": 1
+    }
+  }
+}

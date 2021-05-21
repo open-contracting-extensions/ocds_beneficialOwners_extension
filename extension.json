@@ -1,0 +1,21 @@
+{
+    "name": {
+      "en": "Beneficial Owners"
+    },
+    "description": {
+      "en": "Adds a beneficialOwners array to the organization object to indicate the beneficial owners of a organization."
+    },
+    "documentationUrl": {
+      "en": "https://extensions.open-contracting.org/en/extensions/beneficialOwners/"
+    },
+    "compatibility": [
+      "1.1"
+    ],
+    "schemas": [
+      "release-schema.json"
+    ],
+    "contactPoint": {
+      "name": "Open Contracting Partnership",
+      "email": "data@open-contracting.org"
+    }
+  }
