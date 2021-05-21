@@ -14,15 +14,15 @@ This extension should only be used if the information about the beneficial onwer
       "id": "AHL",
       "name": "Alpha Holdings Ltd",
       "beneficialOwners": [
-          {
-              "id": "1",
-              "name": "Juan Perez",
-              "identifier": {
-                  "scheme": "PRY-IDCARD",
-                  "id": "12345"
-              },
-              "nationality": "PY"
-          }
+        {
+          "id": "1",
+          "name": "Juan Perez",
+          "identifier": {
+            "scheme": "PRY-IDCARD",
+            "id": "12345"
+          },
+          "nationality": "PY"
+        }
       ]
     }
   ]
