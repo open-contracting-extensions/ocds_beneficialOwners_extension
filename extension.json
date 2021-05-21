@@ -6,7 +6,7 @@
     "en": "Adds a beneficialOwners array to the organization object to indicate the beneficial owners of a organization."
   },
   "documentationUrl": {
-    "en": "https://extensions.open-contracting.org/en/extensions/beneficialOwners/"
+    "en": "https://github.com/open-contracting-extensions/ocds_beneficialOwners_extension"
   },
   "compatibility": [
     "1.1"
