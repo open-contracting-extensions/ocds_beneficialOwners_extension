@@ -1,9 +1,10 @@
 # Beneficial Owners
-Adds a beneficialOwners array to the organization object to indicate the beneficial owners of a organization.
 
-At present this extension includes the identifier, name and nationality of each beneficial owner, but this may be further extended with additional information about each person if needed.
+Adds a beneficialOwners array to the organization object to indicate the beneficial owners of an organization.
 
-This extension should only be used if the information about the beneficial onwers is only available during the contracting process life-cycle. If there is a separate beneficial ownership registry, the recommended approach is to publish a separate dataset using the [Beneficial Ownership Data Standard](http://standard.openownership.org/).
+If beneficial ownership (BO) information is collected via contracting processes, then this extension is appropriate: for example, if tenderers are obligated to disclose their beneficial owners within their bid submission.
+
+On the other hand, if BO information is collected in a central register via other means, then it is recommended to publish that information as a separate dataset. The BO dataset and the OCDS dataset should [identify organizations](https://standard.open-contracting.org/latest/en/schema/identifiers/#organization-ids) in the same way, so that users can cross-reference the datasets. The BO dataset can follow the [Beneficial Ownership Data Standard](https://standard.openownership.org/en/latest/).
 
 ## Example
 
