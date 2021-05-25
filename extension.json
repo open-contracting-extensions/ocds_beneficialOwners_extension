@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "Beneficial Owners"
+    "en": "Beneficial owners"
   },
   "description": {
     "en": "Adds a beneficialOwners array to the organization object to indicate the beneficial owners of an organization."

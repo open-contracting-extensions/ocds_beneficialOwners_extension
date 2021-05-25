@@ -1,4 +1,4 @@
-# Beneficial Owners
+# Beneficial owners
 
 Adds a beneficialOwners array to the organization object to indicate the beneficial owners of an organization.
 
