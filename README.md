@@ -1,6 +1,6 @@
 # Beneficial owners
 
-Adds a beneficialOwners array to the organization object to indicate the beneficial owners of an organization.
+Adds a beneficial owners array to the organization object to indicate the beneficial owners of an organization.
 
 If beneficial ownership (BO) information is collected via contracting processes, then this extension is appropriate: for example, if tenderers are obligated to disclose their beneficial owners within their bid submission. Similarly, to use this extension, the **laws in your jurisdiction must permit the publication of personal identifiers**. 
 You can find the complete guidance on publishing personal identifiers in the [Beneficial Ownership Data Standard documentation](http://standard.openownership.org/en/0.2.0/schema/guidance/identifiers.html#shared-identifiers)
