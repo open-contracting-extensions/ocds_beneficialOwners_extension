@@ -11,6 +11,18 @@
           },
           "uniqueItems": true,
           "minItems": 1
+        },
+        "details": {
+          "properties": {
+            "listedOnRegulatedMarket": {
+              "title": "Listed on regulated market",
+              "description": "Whether the organization is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency of the nationality of beneficial owners.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          }
         }
       }
     },
@@ -49,6 +61,38 @@
             "string",
             "null"
           ],
+          "minLength": 1
+        },
+        "address": {
+          "title": "Address",
+          "description": "The address of the person.",
+          "$ref": "#/definitions/Address"
+        },
+        "email": {
+          "title": "Email",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The e-mail address of the person.",
+          "minLength": 1
+        },
+        "faxNumber": {
+          "title": "Fax number",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The fax number of the person. This should include the international dialing code.",
+          "minLength": 1
+        },
+        "telephone": {
+          "title": "Telephone",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The telephone number of the person. This should include the international dialing code.",
           "minLength": 1
         }
       },
