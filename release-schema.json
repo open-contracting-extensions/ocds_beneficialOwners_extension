@@ -16,7 +16,7 @@
           "properties": {
             "listedOnRegulatedMarket": {
               "title": "Listed on regulated market",
-              "description": "Whether the organization is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency of the nationality of beneficial owners.",
+              "description": "Whether the organization is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency in line with anti-money laundering legislation.",
               "type": [
                 "boolean",
                 "null"

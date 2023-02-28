@@ -52,7 +52,7 @@ The beneficial owner's nationality is disclosed.
 
 ### Without nationality
 
-The beneficial owner's nationality is not disclosed because the organization is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency of the nationality of beneficial owners.
+The beneficial owner's nationality is not disclosed because the organization is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency in line with anti-money laundering legislation.
 
 ```json
 {
