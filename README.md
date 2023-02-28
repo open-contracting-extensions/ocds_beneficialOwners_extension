@@ -10,7 +10,7 @@ On the other hand, if BO information is collected in a central register via othe
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-703 (Organisation) and BG-4 (Winner)](https://github.com/eForms/eForms). See [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the correspondences to eForms fields.
+In the European Union, this extension's fields correspond to [eForms BG-703 (Organisation) and BG-4 (Winner)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/index.html). See [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the correspondences to eForms fields.
 
 ## Example
 
