@@ -70,29 +70,30 @@
         },
         "email": {
           "title": "Email",
+          "description": "The e-mail address of the person.",
           "type": [
             "string",
             "null"
           ],
-          "description": "The e-mail address of the person.",
-          "minLength": 1
+          "minLength": 1,
+          "format": "email"
         },
         "faxNumber": {
           "title": "Fax number",
+          "description": "The fax number of the person. This must include the international dialing code.",
           "type": [
             "string",
             "null"
           ],
-          "description": "The fax number of the person. This should include the international dialing code.",
           "minLength": 1
         },
         "telephone": {
           "title": "Telephone",
+          "description": "The telephone number of the person. This must include the international dialing code.",
           "type": [
             "string",
             "null"
           ],
-          "description": "The telephone number of the person. This should include the international dialing code.",
           "minLength": 1
         }
       },
