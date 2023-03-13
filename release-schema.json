@@ -11,6 +11,18 @@
           },
           "uniqueItems": true,
           "minItems": 1
+        },
+        "details": {
+          "properties": {
+            "listedOnRegulatedMarket": {
+              "title": "Listed on regulated market",
+              "description": "Whether the organization is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency in line with anti-money laundering legislation.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          }
         }
       }
     },
@@ -45,6 +57,39 @@
         "nationality": {
           "title": "Nationality",
           "description": "The nationality of the person, as a two-letter, uppercase ISO 3166-1 alpha-2 country code.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "address": {
+          "title": "Address",
+          "description": "The address of the person.",
+          "$ref": "#/definitions/Address"
+        },
+        "email": {
+          "title": "Email",
+          "description": "The e-mail address of the person.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1,
+          "format": "email"
+        },
+        "faxNumber": {
+          "title": "Fax number",
+          "description": "The fax number of the person. This must include the international dialing code.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "telephone": {
+          "title": "Telephone",
+          "description": "The telephone number of the person. This must include the international dialing code.",
           "type": [
             "string",
             "null"
