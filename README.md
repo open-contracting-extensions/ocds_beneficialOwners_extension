@@ -8,10 +8,6 @@ You can find the complete guidance on publishing personal identifiers in the [Be
 
 On the other hand, if BO information is collected in a central register via other means, then it is recommended to publish that information as a separate dataset. The BO dataset and the OCDS dataset should [identify organizations](https://standard.open-contracting.org/latest/en/schema/identifiers/#organization-ids) in the same way, so that users can cross-reference the datasets. The BO dataset can follow the [Beneficial Ownership Data Standard](https://standard.openownership.org/en/latest/).
 
-## Legal context
-
-In the European Union, this extension's fields correspond to [eForms BG-703 (Organisation) and BG-4 (Winner)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). See [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/) for the correspondences to eForms fields.
-
 ## Example
 
 ### With nationality
