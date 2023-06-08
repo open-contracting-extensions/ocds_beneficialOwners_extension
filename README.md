@@ -90,6 +90,10 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-06-07
+
+* Add `country.csv` codelist for `nationality` field.
+
 ### 2023-02-27
 
 * Add fields:
