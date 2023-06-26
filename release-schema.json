@@ -329,8 +329,8 @@
             "string",
             "null"
           ],
-          "minLength": 1,
-          "format": "email"
+          "format": "email",
+          "minLength": 1
         },
         "faxNumber": {
           "title": "Fax number",
