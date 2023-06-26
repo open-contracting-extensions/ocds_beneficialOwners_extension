@@ -3,9 +3,9 @@
     "Organization": {
       "properties": {
         "beneficialOwners": {
-          "type": "array",
           "title": "Beneficial owners",
           "description": "The beneficial owners of the organization.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Person"
           },
@@ -27,9 +27,9 @@
       }
     },
     "Person": {
-      "type": "object",
       "title": "Person",
       "description": "A natural person.",
+      "type": "object",
       "required": [
         "id"
       ],
