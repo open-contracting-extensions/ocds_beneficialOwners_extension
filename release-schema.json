@@ -318,7 +318,9 @@
           },
           "codelist": "country.csv",
           "openCodelist": false,
-          "minLength": 1
+          "minLength": 1,
+          "minItems": 1,
+          "uniqueItems": true
         },
         "address": {
           "title": "Address",
