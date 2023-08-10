@@ -318,8 +318,8 @@
           },
           "codelist": "country.csv",
           "openCodelist": false,
-          "minItems": 1,
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         },
         "address": {
           "title": "Address",
