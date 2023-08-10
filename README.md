@@ -28,7 +28,9 @@ The beneficial owner's nationality is disclosed.
             "scheme": "PRY-IDCARD",
             "id": "12345"
           },
-          "nationality": "PY",
+          "nationalities": [
+            "PY"
+          ],
           "address": {
             "streetAddress": "Avenida Eusebio Ayala 1347",
             "locality": "Asunción",
@@ -90,9 +92,13 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
+### 2023-08-04
+
+* Convert nationality field to `nationalities` array.
+
 ### 2023-06-07
 
-* Add `country.csv` codelist for `nationality` field.
+* Add `country.csv` codelist for nationality field.
 
 ### 2023-02-27
 
