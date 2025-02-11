@@ -94,11 +94,11 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2023-08-04
 
-* Convert nationality field to `nationalities` array.
+* Replace `nationality` string with `nationalities` array.
 
 ### 2023-06-07
 
-* Add `country.csv` codelist for nationality field.
+* Add a `country.csv` codelist for `nationality`.
 
 ### 2023-02-27
 
